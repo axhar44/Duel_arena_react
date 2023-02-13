@@ -1,0 +1,49 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .comp45  {
+        /* display: flex; */
+        flex-wrap: nowrap !important;
+        align-content: space-around;
+    }
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .comp1 .bountyRank,
+    .comp1 .bountyNumber{
+        font-size: 20px;
+    }
+    .comp2 .bountyRank,
+    .comp2 .bountyNumber{
+        font-size: 20px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.block1 {
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .comp1 .bountyRank,
+    .comp1 .bountyNumber{
+        font-size: 16px;
+    }
+    .comp2 .bountyRank,
+    .comp2 .bountyNumber
+    {
+        font-size: 16px;
+    }
+
+}

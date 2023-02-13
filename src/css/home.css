@@ -1,0 +1,42 @@
+body{
+  overflow-x: hidden;
+}
+
+.ion-fab-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+.active_text:active,
+.active_text:visited,
+  .active_text:hover{
+  color: aqua!important;
+}
+
+/* .active:active,
+.active:visited,
+  .active:hover{
+  color: red!important;
+} */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  /* background-color: #666; */
+  background-color: transparent;
+  color: white;
+}
+
+.logo{
+  z-index: 20;
+  margin-top: 15px
+}

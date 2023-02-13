@@ -1,0 +1,35 @@
+.table {
+    margin: 50px 0 0 0;
+    text-align: left;
+    width: 100%;
+  
+  }
+  table .tr {
+    width: 100%;
+  }
+  .border-bottom {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #353353;
+  }
+  
+  .table .tr .th {
+    /* text-decoration: underline;   */
+    /* width: 10px; */
+    text-align: left;
+    padding: 20px;
+    text-align: left;
+    /* align-items: flex-start; */
+  }
+  
+  .table .tr .td {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .openTicket {
+    background: radial-gradient(100% 70% at 50% 100%, #181578 00%, #23224A 100%);
+  
+  }

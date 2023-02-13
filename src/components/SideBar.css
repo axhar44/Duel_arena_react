@@ -1,0 +1,10 @@
+@import "rsuite/dist/rsuite.css";
+/* ///////////// */
+.Sidebar {
+    background: radial-gradient(100% 20% at 50% 100%, #181578 0%, #23224A 100%);
+
+}
+.bg-salmon {
+    background-color: salmon;
+    color: white;
+  }
